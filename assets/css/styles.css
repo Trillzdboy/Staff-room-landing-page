@@ -99,6 +99,12 @@ body {
   right: 0;
 }
 
+@media (max-width: 578px) {
+  .hero_mobile_position {
+    text-align: center;
+  }
+}
+
 
 /* ------------- Section Nav ----------------- */
 .nav_signup{
@@ -162,6 +168,12 @@ body {
     margin-top: 7%;
 }
 
+@media (max-width: 578px) {
+  .learn_more_2_mobile_image {
+    text-align: center;
+  }
+}
+
 
 /* ------------- Subscribe Section ----------------- */
 
@@ -219,4 +231,18 @@ ul {
 
 .footer_letter_spacing {
     letter-spacing: 1px;
+}
+
+.footer_logo {
+    width: 50%;
+}
+
+@media (max-width: 578px) {
+ .footer_letter_spacing {
+  text-align: center;
+ }
+
+  .footer_logo {
+    margin-left: 9%;
+  }
 }
